@@ -11,7 +11,7 @@
 ---
 ## Feature 
 
-- OpenCV를 이용한 동영상 내 밝기 변화 Pixel
+- OpenCV를 이용한 동영상 내 밝기 변화가 감지된 Pixel 추출
 
 https://github.com/user-attachments/assets/1c61547d-c8c6-480b-b2c9-0f96d2993996
 
