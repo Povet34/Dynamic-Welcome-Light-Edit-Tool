@@ -1,5 +1,12 @@
 # Dynamic Welcome Light Editor
-- SL사의 외주건으로 DWL 영상을 만들기
+### Summation
+- SL사의 외주
+- 주어진 영상의 각 Pixel들의 밝기 현황을 추출하여, 데이터로 저장.
+- 연속적인 밝기 Flow를 이산화하여 [유지, FadeIn, FadeOut, Flicker] 로 구분하여 밝기 정보를 간소화
+- 간소화된 밝기 Flow를 그래프로 시각화
+- 시각화된 그래프에서 직접 밝기의 Flow를 수정
+- 수정된 그래프를 바탕으로 새로운 밝기 flow 영상을 제작
+
 
 ---
 ## Feature 
