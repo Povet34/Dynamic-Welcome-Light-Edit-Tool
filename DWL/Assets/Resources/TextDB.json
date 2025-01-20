@@ -1,0 +1,96 @@
+{
+  "datas": [
+    {
+      "key": "SampleText",
+      "value": "SampleText!!SampleText!!"
+    },
+    {
+      "key": "LoadExcelButton",
+      "value": "파일 브라우저에서 Excel파일(.xlsx)을 불러옵니다."
+    },
+    {
+      "key": "LoadVideoButton",
+      "value": "파일 브라우저에서 Video파일(.mp4)을 불러옵니다."
+    },
+    {
+      "key": "CreateSquarePixelChannalButton",
+      "value": "포인트 채널을 생성합니다."
+    },
+    {
+      "key": "CreateLinePixelChannalButton",
+      "value": "라인 채널을 생성합니다.(라인은 분할하여 사용해야합니다.)"
+    },
+    {
+      "key": "VideoChannelInfoControllerPanel",
+      "value": "추출부 채널의 번호, 추출위치 리스트 영역입니다."
+    },
+    {
+      "key": "SaveDataButton",
+      "value": "저장하기"
+    },
+    {
+      "key": "ToggleChannelSettings",
+      "value": "추출부 채널들의 추출위치(동영상 해상도 기준), 채널의 상태를 관리합니다."
+    },
+    {
+      "key": "ToggleLineSettings",
+      "value": "라인 채널의 설정을 조작할 수 있는 페이지입니다."
+    },
+    {
+      "key": "ToggleExtractSettings",
+      "value": "추출부에서 추출된 데이터들을 저장하는 방식을 조절합니다."
+    },
+    {
+      "key": "SplitLinesButton",
+      "value": "선택한 Segment채널을 등간격으로 입력한 수만큼 Point 채널로 변환합니다."
+    },
+    {
+      "key": "CreateDetectedBrightnessPixelsButton",
+      "value": "밝아지는 영역을 자동으로 추출하려는 동영상(.mp4)을 선택합니다."
+    },
+    {
+      "key": "LoadSavedChannelPositionsButton",
+      "value": "저장되어있는 엑셀로부터 채널의 위치정보를 불러와 재배치합니다."
+    },
+    {
+      "key": "ExtractBitInputField",
+      "value": "추출된 데이터를 저장할 때, 기본 8Bit에서 [10], [12], [16]으로 BIt를 확장하여 저장합니다."
+    },
+    {
+      "key": "SaveMilisecDataByFrameInputField",
+      "value": "추출된 데이터를 저장할 때, 영상의 Frame Rate의 빈도를 [입력] 값만큼 확장합니다."
+    },
+    {
+      "key": "DataSimplifyRadicalThresholdInputField",
+      "value": "추출된 데이터를 간소화시키는 과정에서, 이전의 Frame(ms)와 현재의 Frame의 밝기 차이가 [입력] 값 이상일때, 점등(= 비약적 변화)이라 판단합니다."
+    },
+    {
+      "key": "DataSimplifyGradualThresholdInputField",
+      "value": "추출된 데이터를 간소화시키는 과정에서, 이전의 Frame(ms)와 현재의 Frame의 밝기 차이가 [입력] 값 이상일때, 점진적으로 변화중이라고 판단합니다. 단, 비약적변화 수치보다는 낮아야합니다."
+    },
+    {
+      "key": "DataSimplifyMinimumFadeCountInputField",
+      "value": "추출된 간소화 데이터의 Fade처리(255)가 최소 [입력]값 만큼 연속되어야, Fade구간이라고 판단합니다."
+    },
+    {
+      "key": "MaximumAmountInputField",
+      "value": "자동 채널 생성시, 생성되는 채널의 최대량입니다."
+    },
+    {
+      "key": "BrightnessIntervalThresholdInputField",
+      "value": "자동 채널 생성시, 영상에서 최소 밝기와 최대밝기의 차이의 최소가 해당 입력값을 넘어야 Light 영역으로 판단하고 자동생성 채널로 분류합니다."
+    },
+    {
+      "key": "PixelSpacingInputField",
+      "value": "자동 생성되는 채널들의 간격(video pixel)을 지정합니다."
+    },
+    {
+      "key": "ExtractSaveBrightLinearToggle",
+      "value": "추출된 정보 밝기의 시간축을 확장해서 저장할 때, 사이에 추가적으로 생성되는 데이터들을 선형보간하여 저장할지, 확장된 상태로만 저장할지 선택하는 토글입니다."
+    },
+    {
+      "key": "ModeDropdown",
+      "value": "모드를 변경합니다."
+    }
+  ]
+}
